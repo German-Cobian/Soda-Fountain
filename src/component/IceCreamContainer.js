@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { buyIceCream } from '../redux'
 
 function IceCreamContainer(props) {
-  const numOfIceCreams = useSelector(state => state.iceCream.numOfIceCreams) // // "iceCream" added to state object due to root reducer
+  const numOfIceCreams = useSelector(state => state.iceCream.numOfIceCreams)
   const dispatch = useDispatch()
   return (
     <div>
