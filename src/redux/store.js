@@ -1,12 +1,9 @@
 import { createStore, applyMiddleware } from 'redux'
 import logger from 'redux-logger'
 import rootReducer from './rootReducer'
-import { composeWithDevTools } from 'redux-devtools-extension'; // for devtools
+import { composeWithDevTools } from 'redux-devtools-extension'
+import thunk from 'redux-thunk' // Added for async functions
 
-const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(logger))) 
-// "composeWithDevTools() added for devtools usage"
+const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(logger, thunk))) // "thunk" added as argument
 
 export default store
-
-// Documentation for devtools at https://github.com/zalmoxisus/redux-devtools-extension
-// Got to Usage section 1.3 "1.3 Use redux-devtools-extension package from npm" for instructions
