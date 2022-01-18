@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Soda-Fountain
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A how-to on building a basic React-Redux app. Since the purpose of the project is to show step-by-step how different functionalities are implemented in a React-Redux app the user will, according to which branch they checkout to, be able to buy one unit of cake at a click / buy one unit of their choice of either cake or ice-cream at a click / buy a selected number of units of their choice of either cake or ice-cream at a click and see the inventory of cake or ice cream diminished in consequence / or the user can see the list of app user names listed as they are fetched from a user api. The project is based on the tutorial video [React Redux Tutorials](https://youtu.be/9boMnm5X9ak?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK) by "Codevolution."
 
-## Available Scripts
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+* Semantic HTML
+* Javascript
+* Linters ((stylelint, eslint))
+* React
+* Redux
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Setup and Install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps:
 
-### `npm run build`
+* Open your terminal - Windows: Win + R, then type cmd | Mac: Command + space, then type Terminal
+* Navigate to a directory of your choosing using the cd command
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Contact-App.git` to get a copy of the project
+* Navigate to the project's directory using the cd command
+* In the clone folder, run `npm install` and then `npm run build`
+* To fire up the server run `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Breakdown of Tutorial
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The feature branches of the tutorial present versions of the app where specific components or functions
+were implemented. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* `component1-cake` Implements a single component "cakeContainer" which allows the user to be able to buy one unit of cake at a click and see the inventory of cake diminished in consequence.
 
-### `npm run eject`
+* `component2-iceCream` Implements a two component "cakeContainer" and "iceCreamContainer" which allow the user to be able to buy one unit of their choice of either cake or ice cream at a click and see the inventory of cake or ice cream diminished in consequence.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* `add-logger-middleware` Implements logger middleware into the app so that actions are neatly console-logged.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* `add-devtool-extensions` Implements Devtool Extensions that permits efficient app redux fucntions trouble shooting.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* `add-inputs` Implements a function to allow users to buy a selected number of units of their choice of either cake or ice-cream at a click and see the inventory of cake or ice cream diminished in consequence 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* `add-api` Implements an API call so that the user can see the list of app user names listed as they are fetched from it.
 
-## Learn More
+ 
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **German Cobian**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* GitHub: [@German-Cobian](https://github.com/German-Cobian)
+* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
+* LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian/)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/German-Cobian/Soda-Fountain/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-### Deployment
+* Codevolution channel on YouTube
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/German-Cobian/Soda-Fountain/blob/main/LICENSE) licensed.
